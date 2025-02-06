@@ -2,22 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Main page</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./1-timer.html">Timer</a></li>
+          <li><a href="./2-snackbar.html">Snackbar</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <h1>Ласкаво просимо!</h1>
+      <p>Оберіть сторінку:</p>
+      <ul class="main-links">
+        <li>
+          <a class="main-link" href="./1-timer.html">Move to Timer</a>
+        </li>
+        <li>
+          <a class="main-link" href="./2-snackbar.html">Move to Snackbar</a>
+        </li>
+      </ul>
     </main>
 
-    <load src="./partials/footer.html" />
-
-    <script type="module" src="./main.js"></script>
+    <footer>
+      <p>© 2025</p>
+    </footer>
   </body>
 </html>
