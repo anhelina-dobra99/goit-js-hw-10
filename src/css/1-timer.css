@@ -1,1 +1,61 @@
+.page-2 {
+  font-family: 'Montserrat', serif;
+  letter-spacing: 0.04em;
+  padding: 36px 156px;
+}
+.date-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 272px;
+  max-height: 40px;
+  margin-right: 8px;
+  padding: 8px 16px;
+  color: #2e2f42;
+}
+.date-input:hover {
+  border: 1px solid #000;
+}
+.date-input:active {
+  border: 1px solid #4e75ff;
+}
+.start-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #cfcfcf;
+  cursor: pointer;
 
+  font-weight: 500;
+  line-height: 1.5;
+  color: #989898;
+}
+.start-btn:hover {
+  background-color: #6c8cff;
+  color: #fff;
+}
+.start-btn:active {
+  background-color: #4e75ff;
+  color: #fff;
+}
+.timer {
+  margin-top: 32px;
+  display: flex;
+  gap: 24px;
+  height: 72px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  color: #2e2f42;
+}
+.value {
+  font-size: 40px;
+  line-height: 1.2;
+  text-align: center;
+}
+.label {
+  line-height: 1.5;
+  text-transform: uppercase;
+}
